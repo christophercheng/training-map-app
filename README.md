@@ -16,6 +16,26 @@
 
   1.  The selected area of the chart does not clear when a user selects a selection preset e.g. Best 5 minutes.  The likely solution to this issue is more time and possibly to redraw a reset chart
   2.  The calculations for average power and best x minutes do not account for events where there is no power data or power = 0.  A different algorithm could remove those points from calculation and only calculate average power when the user is actually exerting power.
+  
+## Structure of code
+
+All source code is in the /src directory
+
+/src/App.js:  houses the outermost React JSX rendering logic.
+
+/src/components:  houses the React components for the map, chart, and analysis/selector widget.
+
+/src/actions/index.js:  houses all the action creators
+
+/src/reducers/RootReducer.js: houses all the reducers
+
+/src/utils.js: houses some helper functions
+
+/src/store.js houses redux code that initializes the store
+
+/src/constants/ActionTypes.js houses the constants used for the action creactor types
+
+/api contains the workout data
 
 ## Test Directions
 
