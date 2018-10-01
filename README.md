@@ -1,5 +1,8 @@
 # Peaksware Javascript Code Test
 
+## Live Interactive Demo
+
+https://christophercheng.github.io/training-map-app/
 
 ## Installation Directions
 
